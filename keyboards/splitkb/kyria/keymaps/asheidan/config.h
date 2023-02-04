@@ -16,6 +16,9 @@
 
 #pragma once
 
+#define OLED_BRIGHTNESS 32
+#define OLED_TIMEOUT 6000
+
 #ifdef RGBLIGHT_ENABLE
 #    define RGBLIGHT_EFFECT_BREATHING
 #    define RGBLIGHT_EFFECT_RAINBOW_MOOD
